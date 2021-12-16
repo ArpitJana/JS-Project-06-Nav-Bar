@@ -186,16 +186,10 @@ Navbar
                 color: var(--clr-primary-5);
                 padding: 0 2rem;
             }
-            /* .social-icons {
-        display: flex;
-    } */
-            .social-icons li {
-                /* color: var(--clr-primary-5); */
-                padding: 0 .8rem;
-                /* transition: all 0.3s ease;
-        cursor: pointer; */
+            .social-icons {
+                display: flex;
             }
-            /* .social-icons li:hover {
-        color: var(--clr-primary-7);
-    }*/
+            .social-icons li {
+                padding: 0 .8rem;
+            }
         }
