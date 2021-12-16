@@ -81,6 +81,11 @@ Global Styles
         a {
             text-decoration: none;
         }
+        
+        h1 {
+            color: var(--clr-primary-5);
+            font-size: 1.5rem;
+        }
         /* 
 ================
 Navbar
