@@ -1,8 +1,8 @@
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector(".links");
-const socialIcons = document.querySelector(".social-icons");
+const toggleButton = document.querySelector(".nav-header #toggle");
+const navLinks = document.querySelector(".nav-links");
+const socialIcons = document.querySelector(".nav-social-icons");
 
-navToggle.addEventListener("click", function() {
-    links.classList.toggle("show-links");
-    socialIcons.classList.toggle("show-social-icons");
+toggleButton.addEventListener("click", function() {
+    navLinks.classList.toggle("show-nav-links");
+    socialIcons.classList.toggle("show-nav-social-icons");
 });
